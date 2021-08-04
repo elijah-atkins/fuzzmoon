@@ -10983,10 +10983,16 @@ section.resume-section {
 section.resume-section .resume-section-content {
   width: 100%;
 }
+section.resume-section .resume-section-content .d-flex {
+  flex-direction: column;
+}
 
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
+  }
+  section.resume-section .resume-section-content .d-flex {
+    flex-direction: row;
   }
 }
 @media (min-width: 992px) {
