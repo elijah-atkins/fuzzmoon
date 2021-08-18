@@ -10989,6 +10989,9 @@ section.resume-section {
 section.resume-section .resume-section-content {
   width: 100%;
 }
+section.resume-section .resume-section-content .section-text {
+  padding: 0rem;
+}
 section.resume-section .resume-section-content .d-flex {
   flex-direction: column;
 }
@@ -10999,6 +11002,9 @@ section.resume-section .resume-section-content .d-flex {
   }
   section.resume-section .resume-section-content .d-flex {
     flex-direction: row;
+  }
+  section.resume-section .resume-section-content .section-text {
+    padding: 3rem;
   }
 }
 @media (min-width: 992px) {
